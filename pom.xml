@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>32d9c889-8424-44a2-a9fe-f9f547d012e5</groupId>
-	<artifactId>test</artifactId>
+	<artifactId>test-cicd-fifo</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 
-	<name>test</name>
+	<name>test-cicd-fifo</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
