@@ -32,10 +32,10 @@
 				<configuration>
   				<cloudHubDeployment>
   				<uri>https://anypoint.mulesoft.com</uri>
-  				<muleVersion>4.3.0</muleVersion>
+  				<muleVersion>4.4.0</muleVersion>
   				<username>${anypoint.username}</username>
   				<password>${anypoint.password}</password>
-  				<applicationName>demo-mule-app-cicd</applicationName>
+  				<applicationName>test</applicationName>
   				<environment>Sandbox</environment>
   				<workerType>MICRO</workerType>
   				<region>us-east-2</region>
@@ -59,34 +59,6 @@
 			<artifactId>mule-sockets-connector</artifactId>
 			<version>1.2.2</version>
 			<classifier>mule-plugin</classifier>
-		</dependency>
-		<dependency>
-			<groupId>org.mule.connectors</groupId>
-			<artifactId>mule-db-connector</artifactId>
-			<version>1.12.1</version>
-			<classifier>mule-plugin</classifier>
-		</dependency>
-		<dependency>
-			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>mssql-jdbc</artifactId>
-			<version>6.2.2.jre8</version>
-		</dependency>
-		<dependency>
-			<groupId>org.mule.connectors</groupId>
-			<artifactId>mule-file-connector</artifactId>
-			<version>1.3.4</version>
-			<classifier>mule-plugin</classifier>
-		</dependency>
-		<dependency>
-			<groupId>com.mulesoft.connectors</groupId>
-			<artifactId>mule-amazon-rds-connector</artifactId>
-			<version>1.3.5</version>
-			<classifier>mule-plugin</classifier>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.48</version>
 		</dependency>
 	</dependencies>
 
@@ -115,18 +87,6 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</pluginRepository>
-		<pluginRepository>
-          <id>mule-public</id>
-          <name>Mule Public Repository</name>
-          <url>https://repository.mulesoft.org/nexus/content/repositories/public</url>
-          <layout>default</layout>
-          <releases>
-          	<enabled>true</enabled>
-          </releases>
-          <snapshots>
-          	<enabled>true</enabled>
-          </snapshots>
-        </pluginRepository>
 	</pluginRepositories>
 
 </project>
