@@ -35,7 +35,7 @@
   				<muleVersion>4.4.0</muleVersion>
   				<username>${anypoint.username}</username>
   				<password>${anypoint.password}</password>
-  				<applicationName>test</applicationName>
+  				<applicationName>test-cicd-fifo</applicationName>
   				<environment>Development</environment>
 				<businessGroupId>32d9c889-8424-44a2-a9fe-f9f547d012e5</businessGroupId>
   				<workerType>MICRO</workerType>
