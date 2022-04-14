@@ -13,6 +13,7 @@ http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/fil
 	<flow name="testFlow2" doc:id="5fe7d58c-3b44-4d15-8904-aa92f8aeb1a5" >
 		<http:listener doc:name="Listener" doc:id="9c2f115e-fc35-4b5f-a21a-e057b914eb06" config-ref="HTTP_Listener_config" path="/cicd"/>
 		<set-payload value='#["Success"]' doc:name="Set Payload" doc:id="d2e249ed-e76d-4869-a4a4-f0da2c4c6374" />
-		<logger level="INFO" doc:name="Logger" doc:id="9569be13-b42f-4aa8-a15f-b9a7620de803" />
+		<logger level="INFO" doc:name="Logger" doc:id="9569be13-b42f-4aa8-a15f-b9a7620de803" message="My logger cicd"/>
+		<logger level="INFO" doc:name="Logger" doc:id="2e0511c5-4a94-4f48-af8f-d5d69ccc65d7" message="My logger cicd 2"/>
 	</flow>
 </mule>
